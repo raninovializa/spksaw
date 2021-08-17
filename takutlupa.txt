@@ -1,0 +1,5 @@
+SELECT * FROM alternatif WHERE kode_alternatif LIKE '__C1'
+
+INSERT INTO matriks_keputusan(C1) SELECT crisp FROM alternatif WHERE kode_alternatif LIKE '__C1'
+
+     
